@@ -27,3 +27,18 @@ Commands/Descriptions/Examples
 12. git push origin master: remoteMaster / How to add the name for remote master branch (but it is bad practice)/ 
 
 13. -u /The same : --set-upstream / 
+
+14. git branch / Display all branches / 
+
+15. git branch <branchName> /Create new branch and named it/ git branch newBranch1
+
+16. git checkout <name> / How to switch to another branch / git checkout newBranch1
+
+17. git checkout -b <name> / How to create and switch shortcut / git checkout -b newBranch2
+
+18. git branch -m <old> <new> / rename branch, <old> could be skipped / git branch -m currentName newName
+
+19. git merge <branch_from_where> / the name of the branch from where changes should be merged
+
+20. git  branch -d <branch>  / delete: The -d option will delete the branch only if
+                             it has already been pushed and merged with the remote branch. 
