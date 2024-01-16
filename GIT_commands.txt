@@ -14,3 +14,16 @@ Commands/Descriptions/Examples
 
 7. git clone / Cloning a local or remote repository/ git clone https://github.com/ValentynKarpiuk/GIT_commands.git
 
+8. git remote add origin / Create connection between local and remote repo / git remote add origin https://github.com/ValentynKarpiuk/GIT_commands.git
+
+9. git remote  -v / Checking the connection and url / 
+
+10. git push -u origin master / the first connection for authorization
+                                  (-u is needed for first time to remember link), after that we can use only:
+                                   git push. Without this (-u) only git push origin master will be acceptable./ 
+
+11. git push origin master / Synchronize changes between local and remote directory/ 
+
+12. git push origin master: remoteMaster / How to add the name for remote master branch (but it is bad practice)/ 
+
+13. -u /The same : --set-upstream / 
