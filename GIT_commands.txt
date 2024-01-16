@@ -42,3 +42,7 @@ Commands/Descriptions/Examples
 
 20. git  branch -d <branch>  / delete: The -d option will delete the branch only if
                              it has already been pushed and merged with the remote branch. 
+
+21. git pull <remote repo> <branch name > /  is used to update the local version from a remote / git pull origin master
+
+22. git add <file name> && git commit -m “message body” /  add file to stage area and commit it
