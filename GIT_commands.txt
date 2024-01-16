@@ -1,0 +1,16 @@
+Commands/Descriptions/Examples
+
+1. git init / Initialized empty git repository in master/main(in working directory)/
+
+2. git status / Show the working tree status/
+
+3. git add <fileName> / Saving in Git the changes of selected fileName/
+
+4. git add . / Saving all documents that have been modified/
+
+5. git commit -m "" /Messages for history changes/
+
+6. git log /Display the story of commits/ 
+
+7. git clone / Cloning a local or remote repository/ git clone https://github.com/ValentynKarpiuk/GIT_commands.git
+
